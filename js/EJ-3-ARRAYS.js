@@ -17,16 +17,3 @@ for (let i = 0; i < apariciones.length; i++) {
 }
 
 
-
-document.write(` <table> <tbody>`);
-
-
-  document.write(`<tr>`);
-
-  document.write(`<td> ${apariciones[i]} </td>`);
-
- 
-  document.write(`</tr>`);
-
-
-document.write(`</tbody> </table>`);
