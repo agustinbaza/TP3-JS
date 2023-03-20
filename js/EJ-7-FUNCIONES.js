@@ -8,4 +8,10 @@ function tablas(num) {
   }
 }
 
-console.log(tablas(num));
+if (isNaN(num)) {
+    document.write("No ingreso un caracter valido");
+  } else {
+    console.log(tablas(num));
+  }
+  
+

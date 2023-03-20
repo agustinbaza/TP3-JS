@@ -1,12 +1,12 @@
 // PUNTO 4
 
-let num = parseInt(prompt("Ingrese un numero"));
+let num = parseInt(prompt("Ingrese un número"));
 
 function paridad(num) {
   if (num % 2 === 0) {
-    document.write("El numero es par");
+    document.write("El número es par");
   } else {
-    document.write("El numero es impar");
+    document.write("El número es impar");
   }
 }
 
